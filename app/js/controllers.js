@@ -19,10 +19,6 @@ var PhoneListCtrl = function($scope) {
             'snippet': 'The Next, Next Generation tablet.'
         }
     ];
-    $scope.a = {
-        text: 'aaaa'
-    }
-    $scope.pppp = 'ddddd';
 };
 
 phonecatApp.controller('PhoneListCtrl', PhoneListCtrl);
