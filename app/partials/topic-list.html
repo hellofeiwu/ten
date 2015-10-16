@@ -1,0 +1,9 @@
+<div class="container">
+    <div ng-repeat="topTopic in topTopics" class="col-md-6">
+        <a href="#/topic/{{$index}}">
+            <div class="thumbnail">
+                <p class="title">{{ topTopic.title }}</p>
+            </div>
+        </a>
+    </div>
+</div>
